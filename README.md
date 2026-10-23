@@ -14,10 +14,6 @@ Aqui estão alguns dos exercícios e conceitos que estou aprendendo, desde os pr
 - Operadores de comparação
 - Exercícios práticos de lógica de programação
 
-## Projeto em desenvolvimento
-
-**Controle de Gastos:** aplicação de console para registrar despesas e consultar valores. O objetivo é desenvolver o projeto gradualmente, aplicando os conceitos aprendidos.
-
 ## Tecnologias
 
 - Java
