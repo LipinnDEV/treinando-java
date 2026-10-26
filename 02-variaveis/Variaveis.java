@@ -16,15 +16,5 @@ public class Variaveis {
 }
 
 
-public class Variaveis {
-    public static void main(String[] args) {
-double valor = 200.00;
-double desconto = 0.10;
-double valorDesconto = valor * desconto;
-double valorFinal = valor - valorDesconto;
-System.out.println("Valor original: R$ " + valor);
-System.out.println("Desconto: R$ " + valorDesconto);
-System.out.println("Preço final: R$ " valorFinal);
-}
-}
+
 
