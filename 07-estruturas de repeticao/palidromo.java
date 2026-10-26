@@ -1,12 +1,16 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Palindromo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Insira uma palavra: ");
-        String palavra = sc.nextLine();
+        System.out.println("=== Verificador de Palíndromos ===");
+
+        System.out.print("Digite uma palavra ou frase: ");
+        String palavra = sc.nextLine()
+                .toLowerCase()
+                .replace(" ", "");
+
         String invertida = "";
 
         for (int i = palavra.length() - 1; i >= 0; i--) {
@@ -14,9 +18,11 @@ public class Main {
         }
 
         if (palavra.equals(invertida)) {
-            System.out.println("É palindromo");
+            System.out.println("A palavra ou frase é um palíndromo!");
         } else {
-            System.out.println("Não é");
+            System.out.println("A palavra ou frase não é um palíndromo.");
         }
+
+        sc.close();
     }
 }
