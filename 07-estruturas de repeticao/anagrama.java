@@ -1,9 +1,14 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Anagrama {
     public static void main(String[] args) {
-        String palavra1 = "PEDRA";
-        String palavra2 = "PERDA";
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Insira uma palavra: ");
+        String palavra1 = sc.nextLine();
+        System.out.println("Insira uma palavra: ");
+        String palavra2 = sc.nextLine();
 
         char[] letras1 = palavra1.toLowerCase().toCharArray();
         char[] letras2 = palavra2.toLowerCase().toCharArray();
@@ -20,5 +25,6 @@ public class Anagrama {
                 System.out.println("Não é anagrama");
             }
         }
+        sc.close();
     }
 }
